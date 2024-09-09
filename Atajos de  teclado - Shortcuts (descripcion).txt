@@ -1,0 +1,15 @@
+Ajustar linea de código a ventana: word wrap: ctrl + shift + f
+
+Comentar bloques de codigo: ctrl + k + c
+
+quitar comentario de bloques de codigo: ctrl + k + u
+
+expandir codigo: ctrl + shift + '+' (modificado)
+
+minimizar codigo: ctrl + shift + '-' (modificado)
+
+Dar formato al documento (extension: Prettier): shift + alt + F
+
+
+
+	
