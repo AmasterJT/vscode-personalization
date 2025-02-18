@@ -31,6 +31,6 @@ $ chmod +x install.sh
 ```
 4. run `./install.sh`
 
-![Entorno S4vitar](docs/imagenes/home_page.png)
-![Entorno S4vitar](docs/imagenes/screen1.png)
-![Entorno S4vitar](docs/imagenes/command_screen.png)
+![vscode AmasterJT](docs/imagenes/home_page.png)
+![vscode AmasterJT](docs/imagenes/screen1.png)
+![vscode AmasterJT](docs/imagenes/command_screen.png)
