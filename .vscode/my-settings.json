@@ -1,36 +1,37 @@
 {
   // personalizacion del editor con CSS y JS
   "vscode_custom_css.imports": [
-    "file:///D:/Documentos/My-Settings/VsCode/custom-vscode.css",
-    "file:///D:/Documentos/My-Settings/VsCode/custom-vscode.js"
+    "file:///home/amaster/My-settings/Vscode-personalization/custom-vscode.css",
+    "file:///home/amaster/My-settings/Vscode-personalization/custom-vscode.js",
+    "file:///home/amaster/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
-
-  //temas e iconos
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "amaster theme",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "material-icon-theme",
-
+  
   // configuracion basica del editor
+  "editor.formatOnSave": false,
   "editor.mouseWheelZoom": true,
   "editor.minimap.enabled": false,
-  "workbench.sideBar.location": "right",
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
-  "editor.formatOnSave": true,
   "editor.matchBrackets": "never",
-  "terminal.integrated.cursorStyle": "line",
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden",
   "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "terminal.integrated.cursorStyle": "line",
+
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.startupEditor": "none",
 
   // eliminamos los breadcrums  y los botones de accion
   // tambien seteamos en  view->appearence->Tab Bar:hidden
   "window.titleBarStyle": "native",
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
   "window.menuBarVisibility": "toggle",
-  "workbench.editor.showTabs": "single",
-  "breadcrumbs.enabled": false,
   //"workbench.editor.editorActionsLocation": "hidden",
 
   //quitamos la scrollbar
@@ -49,13 +50,15 @@
   "editor.tabSize": 4,
   "editor.fontLigatures": true,
 
+  "editor.guides.bracketPairs": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+
   // =========================================================================================
   //configuracion por tipo de archivo y lenguaje -- formateo
   // =========================================================================================
-  "editor.linkedEditing": true,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "clang-format.style": "{ColumnLimit: 200, BasedOnStyle: LLVM, IndentWidth: 4}", // estilos para lenguaje C/C++
+  "clang-format.style": "{ColumnLimit: 200, BasedOnStyle: LLVM, IndentWidth: 4, AlignAfterOpenBracket: true}", // estilos para lenguaje C/C++
 
   "cmake.showOptionsMovedNotification": false,
   "cmake.configureOnOpen": true,
@@ -94,10 +97,11 @@
     "editor.tabSize": 4
   },
 
+
   // extension 'Better Comments' config
   "better-comments.tags": [
     {
-      "tag": "!",
+      "tag": "PROBLEM",
       "color": "#c22000",
       "strikethrough": false,
       "underline": false,
@@ -106,8 +110,8 @@
       "italic": false
     },
     {
-      "tag": "?",
-      "color": "#3498DB",
+      "tag": "NOTE",
+      "color": "#eb73d1",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -115,16 +119,7 @@
       "italic": false
     },
     {
-      "tag": "//",
-      "color": "#474747",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "todo",
+      "tag": "WARNING",
       "color": "#FF8C00",
       "strikethrough": false,
       "underline": false,
@@ -133,13 +128,35 @@
       "italic": false
     },
     {
-      "tag": "*",
+      "tag": "TO-DO",
       "color": "#98C379",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
+    },
+    {
+      "tag": "DOCSTRING",
+      "color": "#00bfe5",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     }
-  ]
+  ],
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.preview"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-21.0.4+7",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "chat.commandCenter.enabled": false
 }
