@@ -16,7 +16,11 @@ https://github.com/user-attachments/assets/f7af48ab-a962-4b07-9d05-35980df9003b
 - **Custon Css and JS:** be5invis.vscode-custom-css
 - **ICons:** pkief.material-icon-theme
 
-⚠️ In Linux to use extention `be5intact.vscode-custom-css` you need to enable it as root user. Run: `sudo code --user-data-dir="~/.vscode-root" --no-sandbox` then restart vscode.
+⚠️ In Linux to use extention `be5intact.vscode-custom-css` you need to enable it as root user. Run: 
+```bash
+sudo code --user-data-dir="~/.vscode-root" --no-sandbox
+```
+ then restart vscode.
 
 ## Intallation
 1. Clone this repo
