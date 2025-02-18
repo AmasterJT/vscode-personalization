@@ -1,11 +1,9 @@
 # My vscode personalization
 
-<div style="text-align: center;">
-  <video width="600" controls>
-    <source src="docs/videos/ejemplo.mp4" type="video/mp4">
-    Tu navegador no soporta el tag de video.
-  </video>
-</div>
+
+
+
+https://github.com/user-attachments/assets/f7af48ab-a962-4b07-9d05-35980df9003b
 
 
 
