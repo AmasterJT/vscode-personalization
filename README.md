@@ -20,8 +20,12 @@ https://github.com/user-attachments/assets/f7af48ab-a962-4b07-9d05-35980df9003b
 
 ## Intallation
 1. Clone this repo
-2. set executable permissions to `install.sh`
-3. run `./install.sh`
+2. go to Vscode-personalization folder
+3. set executable permissions to `install.sh`
+```bash
+$ chmod +x install.sh
+```
+4. run `./install.sh`
 
 ![Entorno S4vitar](docs/imagenes/home_page.png)
 ![Entorno S4vitar](docs/imagenes/screen1.png)
