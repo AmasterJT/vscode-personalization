@@ -1,9 +1,15 @@
 # My vscode personalization
 AmasterJT
 
-![Entorno S4vitar](docs/imagenes/home_page.png)
-![Entorno S4vitar](docs/imagenes/screen1.png)
-![Entorno S4vitar](docs/imagenes/command_screen.png)
+<div style="text-align: center;">
+  <video controls>
+    <source src="docs/videos/ejemplo.mp4" type="video/mp4">
+    Tu navegador no soporta el tag de video.
+  </video>
+</div>
+
+
+
 
 >❗️**Important:** Install vscode from .deb file. Don't install from snap.
 
@@ -19,3 +25,7 @@ AmasterJT
 1. Clone this repo
 2. set executable permissions to `install.sh`
 3. run `./install.sh`
+
+![Entorno S4vitar](docs/imagenes/home_page.png)
+![Entorno S4vitar](docs/imagenes/screen1.png)
+![Entorno S4vitar](docs/imagenes/command_screen.png)
