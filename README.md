@@ -1,8 +1,7 @@
 # My vscode personalization
-AmasterJT
 
 <div style="text-align: center;">
-  <video controls>
+  <video width="600" controls>
     <source src="docs/videos/ejemplo.mp4" type="video/mp4">
     Tu navegador no soporta el tag de video.
   </video>
