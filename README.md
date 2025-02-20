@@ -1,4 +1,4 @@
-# My vscode personalization
+# 🚀 My vscode personalization
 
 https://github.com/user-attachments/assets/f7af48ab-a962-4b07-9d05-35980df9003b
 
